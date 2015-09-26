@@ -8,6 +8,7 @@ namespace snif
 		public static void Main (string[] args)
 		{
 			snif snif = new snif ();
+            snif.startSnif();
 		}
 	}
 }
